@@ -1,8 +1,9 @@
  
  
  // 与えられた引数を二乗にする
- const number = (X) => {
-    console.log(X**2);
+ const double = (num) =>{
+    return num**2;
   }
   
-number(10);
+ // 関数の戻り値を出力する
+ console.log(double(10));
